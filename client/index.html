@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insyd Notifications POC</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; background:#fafafa; }
+      .container { max-width: 1100px; margin: 24px auto; display:flex; gap:24px; }
+      .card { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
+      .sidebar { width: 320px; }
+      .btn { padding: 8px 12px; border: 1px solid #ddd; background:#fff; border-radius:8px; cursor:pointer; }
+      .btn:hover { background:#f5f5f5; }
+      .post { padding:12px; border:1px solid #eee; border-radius:10px; margin-bottom:10px; background:#fff; }
+      .post .meta { font-size:12px; opacity:.6; }
+      .actions { display:flex; gap:8px; margin-top:8px; }
+      .notif-unread { background:#fffdf2; }
+      .row { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+      .input { padding:8px 10px; border:1px solid #ddd; border-radius:8px; width:100%; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
